@@ -1,0 +1,118 @@
+/*******************************************************************************
+ * My theme for rofi
+ * Colorscheme: Catppuccin Mocha
+ * User: cherrypicker707
+ ********************************************************************************/
+
+* {
+    font: "JetBrains Mono 10";
+    
+    red: #f38ba8;
+    maroon: #eba0ac;
+    peach: #fab387;
+    yellow: #f9e2af;
+    blue: #89b4fa;
+    lavender: #b4befe;
+    text: #cdd6f4;
+    base: #1e1e2e;
+}
+
+window {
+    padding: 5; 
+    border: 1;
+    background-color: @base;
+    border-color: @lavender;
+
+    transparency: "real";
+    location: north;
+    width: 512;
+    y-offset: 128;
+}
+
+mainbox {
+    background-color: inherit;
+
+    spacing: 5;
+}
+
+inputbar {
+    padding: 1 5;
+    margin: 0;
+    border: 1;
+    background-color: inherit;
+    border-color: @lavender;
+
+    spacing: 5;
+    children: [ prompt, textbox-prompt-colon, entry ];
+}
+
+message {
+    padding: 5; 
+    border: 1;
+    background-color: inherit;
+    border-color: @red;
+}
+
+error-message {
+    padding: -4 -2;
+    background-color: inherit;
+    border-color: @red;
+}
+
+textbox {
+    background-color: inherit;
+
+    text-color: @maroon;
+}
+
+prompt {
+    background-color: inherit;
+
+    text-color: @blue; 
+}
+
+textbox-prompt-colon {
+    background-color: inherit;
+
+    expand: false;
+    content: ":";
+    text-color: @blue;
+}
+
+entry {
+    background-color: inherit;
+
+    text-color: @text;
+}
+
+listview {
+    padding: 0;
+    margin: 0;
+    background-color: inherit;
+
+    fixed-height: false;
+    dynamic: true;
+    spacing: 3;
+    lines: 8;
+}
+
+element {
+    padding: 2 5;
+    background-color: inherit;
+
+    text-color: @text;
+}
+
+element.selected {
+    border: 1;
+    border-color: @peach;
+
+    text-color: @yellow;
+}
+
+element-text {
+    background-color: inherit; 
+
+    horizontal-align: 0.5;
+    text-color: inherit;
+}
