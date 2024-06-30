@@ -5,7 +5,7 @@ My configuration uses **catppuccin mocha** colorscheme everywhere, where it is p
 
 Used font is **JetBrains Mono**.
 
-## Required software
+## Used software
 - i3
 - polybar
 - rofi
@@ -13,3 +13,4 @@ Used font is **JetBrains Mono**.
 - alacritty
 - picom
 - flameshot
+- slock
