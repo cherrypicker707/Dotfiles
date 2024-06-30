@@ -6,6 +6,6 @@ option=$(printf "cancel\npower off now" | rofi -dmenu -p "action" -mesg "pc is s
 
 case "$option" in
     "cancel") shutdown -c ;;
-    "power off now") shutdown -p now
+    "power off now") shutdown -p now ;;
     *) exit 1 ;;
 esac
