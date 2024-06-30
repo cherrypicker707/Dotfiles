@@ -1,1 +1,7 @@
-@theme "/home/cherrypicker707/.local/share/rofi/themes/cherrypicker.rasi"
+configuration {
+    drun {
+        display-name: "application";
+    }
+}
+
+@theme "/home/cherrypicker707/.local/share/rofi/themes/rofi_theme.rasi"

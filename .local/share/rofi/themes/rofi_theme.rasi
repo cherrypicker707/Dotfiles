@@ -23,7 +23,6 @@ window {
     background-color: @base;
     border-color: @lavender;
 
-    transparency: "real";
     location: north;
     width: 512;
     y-offset: 128;
@@ -47,7 +46,7 @@ inputbar {
 }
 
 message {
-    padding: 5; 
+    padding: 1 4; 
     border: 1;
     background-color: inherit;
     border-color: @red;
