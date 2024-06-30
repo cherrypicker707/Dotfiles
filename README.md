@@ -5,12 +5,17 @@ My configuration uses **catppuccin mocha** colorscheme everywhere, where it is p
 
 Used font is **JetBrains Mono**.
 
-## Used software
+## Configured software
 - i3
 - polybar
 - rofi
-- ranger
 - alacritty
 - picom
+- ly
+
+## Other used software
+- JetBrains Mono typeface
+- Catppuccin Mocha Dark cursor theme
+- ranger
 - flameshot
 - slock
