@@ -3,6 +3,8 @@ This repository contains configurations files for my Linux operating system.
 
 My configuration uses **catppuccin mocha** colorscheme everywhere, where it is possible.
 
+Neovim configuration is based on **kickstart.nvim**.
+
 Used font is **JetBrains Mono**.
 
 ## Configured software
