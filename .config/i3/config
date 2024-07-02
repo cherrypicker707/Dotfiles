@@ -46,12 +46,12 @@ set $mantle #181825
 set $crust #11111b
 
 # Colors
-client.focused $peach $base $yellow $peach $peach
-client.focused_inactive $teal $base $green $teal $teal
-client.unfocused $sapphire $base $sky $sapphire $sapphire
-client.urgent $red $base $maroon $red $red
-client.placeholder $mauve $base $pink $mauve $mauve
-client.background $base
+client.focused $peach $crust $yellow $peach $peach
+client.focused_inactive $teal $crust $green $teal $teal
+client.unfocused $sapphire $crust $sky $sapphire $sapphire
+client.urgent $red $crust $maroon $red $red
+client.placeholder $mauve $crust $pink $mauve $mauve
+client.background $crust
 
 # Sound volume control
 set $refresh_i3status killall -SIGUSR1 i3status
