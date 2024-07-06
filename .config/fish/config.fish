@@ -12,3 +12,4 @@ abbr --add cmkb --position command cmake -S .. -B .
 abbr --add gst --position command git status
 abbr --add glg --position command git log
 abbr --add gcm --position command git commit
+abbr --add ff --position command fastfetch
