@@ -1,6 +1,6 @@
 # Configuration file for Alacritty
 
-import = [ "~/.config/alacritty/colors.toml", ]
+import = [ "~/.config/alacritty/catppuccin-mocha.toml", ]
 
 [font]
 normal = { family = "JetBrains Mono", style = "Regular" }

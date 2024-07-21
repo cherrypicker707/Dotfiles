@@ -15,10 +15,10 @@ Used font is **JetBrains Mono**.
 - picom
 - ly
 - slock
+- cmus
 
 ## Other used software
 - JetBrains Mono typeface
 - Catppuccin Mocha Dark cursor theme
 - ranger
 - flameshot
-- slock

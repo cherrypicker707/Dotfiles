@@ -14,6 +14,9 @@ title_align center
 default_border normal 1
 focus_follows_mouse no
 
+# Force border on all windows
+for_window [all] border normal 1
+
 # Gaps
 gaps inner 10
 

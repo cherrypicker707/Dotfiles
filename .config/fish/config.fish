@@ -13,3 +13,9 @@ abbr --add gst --position command git status
 abbr --add glg --position command git log
 abbr --add gcm --position command git commit
 abbr --add ff --position command fastfetch
+abbr --add eyed3 --position command eyeD3
+
+# Universal variables
+set --universal --export EDITOR nvim
+set --universal --export QT_STYLE_OVERRIDE kvantum
+set --universal --export SUDO_PROMPT "$(set_color --bold red) Password: "
